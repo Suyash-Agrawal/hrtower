@@ -10,4 +10,4 @@ As it is implemented on blockchain, therefore no intermediaries are involved and
 
 Thus it overall helps in betterment of farmers.
 
-link for ppt--> https://drive.google.com/open?id=1j1hMgCm3C-4V9R09v7A68DGQAE4FOuIZ
+link for ppt--> https://drive.google.com/open?id=0B_jdptVfDGbsVERvNXFYVUZROUw3M1ZGQTVlWVNITkcwdDhB
