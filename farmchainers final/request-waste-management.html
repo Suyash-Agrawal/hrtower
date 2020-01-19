@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+    <title>Farmchainers</title>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1" >
+		  <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+
+    <style type="text/css">
+      /*#intro{
+        background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTas4KNihS3LcO8FSZ-uToI3R4HoKLbv4wYqzJHFuOvg0H6MUUUMw);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      }*/
+      .table-responsive{
+        margin: 0 10px;
+      }
+      #quantity, #price{
+        width: 100%;
+        background: rgba(255, 255, 255, 0.05);
+        height: 2.75em;
+        padding: 0 1em;
+        border-radius: 0.25em;
+        border: 1px solid rgba(255,255,255,0.2);
+        outline: 0;
+      }
+      .pickUp{
+        color: yellow;
+      }
+      .delivered{
+        color: rgb(89, 244, 66);
+      }
+      .onWay{
+        color: rgb(237, 80, 211);
+      }
+      #welcome
+      {
+    position: relative;
+    top: 0px;
+    left: 85%;
+    margin: 0px;
+    /*height: 108px;*/
+    /*width: 250px;*/
+    /*background: #38021fb8;*/
+    font-family: cursive;
+    letter-spacing: 1.2px;
+    word-spacing: 2px;
+    color: whitesmoke;
+    /*border-radius :20px;*/
+    z-index: 9999;
+      }
+    </style>
+	</head>
+<style>
+
+</style>
+	<body>
+
+		<!-- Sidebar -->
+    <div id="welcome" >
+      <div class="col-md-*">
+         WELCOME 
+      </div>
+    </div>
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+              <!----
+							<li><a href="#intro">VIEW YOUR CROPS</a></li>-->
+              <li><a href="#one">ADD YOUR details</a></li>
+              <!----
+							<li><a href="#two">VIEW STORAGE</a></li>
+							<li><a href="#three">VIEW TRANSPORT</a></li>
+              <li><a href="#four">VIEW ORDERS</a></li>
+              --->
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro --
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="table-responsive">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Crop ID</th>
+            <th>Crop Name</th>
+            <th>Status</th>
+            <th>Quantity</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody id="cropTable">
+        </tbody>
+      </table>
+    </div>
+
+			
+					</section>-->
+
+					<!--- add details -->
+<section id="one" class="wrapper style1 fullscreen spotlight">
+
+		<div class="col-sm-8 col-md-6">
+ <div class="container col-sm8 col-md-6">
+    <form class="horizontal" id="add_form">
+  <div class="form-group">
+    <label for="consumer_name">Consumer Name</label>
+    <input type="text" class="form-control" id="consumer_name" placeholder="enter your name"/>
+  </div>
+  <div class="form-group">
+    <label for="consumer_name">Quantity</label>
+    <input type="number" class="form-control" id="quantity" placeholder="Quantity">
+  </div>
+  
+  <div class="form-group">
+    <label for="consumer_name">Phone Number</label>
+    <input type="tel" class="form-control" id="phone_number" placeholder="Phone Number">
+  </div>
+  <div class="form-group">
+    <label for="consumer_name">Location</label>
+    <input type="text" class="form-control" id="location" placeholder="Location"/>
+  </div>
+  <button class="btn btn-default primary" id="submit">Submit</button>
+</form>
+</div>
+</div>
+</section>
+
+
+
+
+</script> -->
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+  <script src="https://cdn.rawgit.com/ethereum/web3.js/develop/dist/web3.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+  <script src="./farmerPortal.js"></script>
+</html>
